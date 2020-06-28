@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<styled.div>
+  <div>
+    <styled.p>
+      Have you sold subject to contract?
+    </styled.p>
+    <styled.span>
+      Enter your exchange date to unlock the tools you need for the next stage of your sale.
+    </styled.span>
+  </div>
+  <styled.div>
+    <styled.div>
+      <styled.span
+        selected=""
+      >
+        Please select
+      </styled.span>
+      <styled.button
+        onClick={[Function]}
+      >
+        <img
+          alt="up-down"
+          src="up-down.svg"
+        />
+      </styled.button>
+      <Calendar
+        onSelect={[Function]}
+        open={false}
+        selected=""
+      />
+    </styled.div>
+    <styled.button
+      onClick={[Function]}
+    >
+      Submit
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;
